@@ -62,6 +62,7 @@ const Continent4 = () => {
         </button>
       )}
 
+
     {showQuestion && (
       <div>
       {showQuestion && !isLastQuestion && (

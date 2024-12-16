@@ -62,8 +62,9 @@ const Continent1 = () => {
         <button onClick={handleShowQuestions} className="question-button">
           Começar Perguntas
         </button>
+        
       )}
-
+ 
       {showQuestion && (
         <div>
           {showQuestion && !isLastQuestion && (
