@@ -62,6 +62,8 @@ const Continent4 = () => {
         </button>
       )}
 
+    {showQuestion && (
+      <div>
       {showQuestion && !isLastQuestion && (
         <div>
           <p className='p'>{subtractionQuestions[currentQuestionIndex].question}</p>
@@ -75,25 +77,27 @@ const Continent4 = () => {
           <button onClick={nextQuestion} className="answer-input">
             Verificar
           </button>
-          <div className="button-container"> {/* Contêiner para alinhar o botão abaixo */}
-            <button onClick={() => navigate('/')} className="back-button">
-              Voltar
-            </button>
-          </div>
+          
         </div>
       )}
 
       {showQuestion && isLastQuestion && (
         <div>
-          <h2 className='message'>Você terminou todas as perguntas!</h2>
-          <p className='message'>Parabéns e obrigado por participar!</p>
-          <button onClick={() => navigate('/')} className="back-button">
-            Voltar
-          </button>
+          <p className='message'>Você terminou todas as perguntas! Parabéns e obrigado por participar!</p>
+          
         </div>
       )}
 
       {message && <p className='message'>{message}</p>}
+      <div className="button-container"> 
+          <button onClick={() => navigate('/')} className="back-button">
+              Voltar
+            </button>
+          </div>
+       
+          </div>
+    
+    )}
     </div>
   );
 };

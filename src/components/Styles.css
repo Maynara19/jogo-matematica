@@ -245,12 +245,12 @@ h1 {
   
   #oi {
     color: #fdfdfd;
-    text-shadow: 2px 2px 0 #2e00fa, -2px -2px 0 #000;
+    text-shadow: 2px 2px 0 #357abd, -2px -2px 0 #000;
   }
 .answer-input{
     padding: 10px 20px;
     font-size: 18px;
-    background-color: #357abd;
+    background-color: #4a90e2;
     color: white;
     border: none;
     cursor: pointer;
@@ -263,7 +263,7 @@ h1 {
 .question-button{
     padding: 10px 20px;
     font-size: 18px;
-    background-color: #400bff;
+    background-color: #4a90e2;
     color: white;
     border: none;
     cursor: pointer;
@@ -314,7 +314,7 @@ h1 {
   }
   
   .back-button {
-    background-color: #ff6b6b;
+    background-color: #4a90e2;
     color: white;
     border: none;
     padding: 15px 20px;
@@ -323,10 +323,8 @@ h1 {
     font-size: 16px;
   }
   
-  
-  
   .back-button:hover {
-    background-color: #ff4a4a;
+    background-color: #969090;
   }
   
   

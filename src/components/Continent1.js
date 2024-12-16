@@ -52,8 +52,6 @@ const Continent1 = () => {
     setCurrentQuestionIndex(0);
   };
 
-  
-
   const isLastQuestion = currentQuestionIndex === multiplicationQuestions.length - 1;
 
   return (
@@ -87,7 +85,6 @@ const Continent1 = () => {
           {showQuestion && isLastQuestion && (
             <div>
               <p className='message'>Você terminou todas as perguntas! Parabéns e obrigado por participar!</p>
-              
             </div>
           )}
 
