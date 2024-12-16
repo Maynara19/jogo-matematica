@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Minecraftia', sans-serif; /* Use uma fonte semelhante ao Minecraft */
+    background-image: url('http://localhost:3000/fundo.png.png'); /* Caminho para a imagem de fundo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.menu-container {
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo escuro com opacidade */
+    width: 500px;
+    padding: 50px;
+    border: 3px solid #4a4a4a; /* Bordas grossas para dar um visual similar ao Minecraft */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+h1 {
+    color: #fdfdfd; /* Cor verde característica */
+    text-shadow: 2px 2px 0 #2e00fa, -2px -2px 0 #000; 
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Estilo para os botões de menu */
+.menu-button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 80px;
+    font-size: 20px;
+    background-color: #4a90e2;  /* Cor do botão, igual ao do home */
+    color: white;
+    border: none;
+    border-radius: 5px;  /* Borda arredondada */
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+
+.menu-button:hover {
+    background-color: #94929c;  /* Cor do botão em hover, mais escura */
+    transform: translateY(-3px);  /* Elevação do botão no hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4); /* Aumento da sombra */
+}
+
+.menu-button:active {
+    background-color: #94929c;  /* Cor mais escura do botão quando pressionado */
+    transform: translateY(0);  /* Volta à posição original */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra normal */
+}
