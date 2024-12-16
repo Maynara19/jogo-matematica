@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('http://localhost:3000/fundo.png.png');  
+    background-image: url('../imagens/fundo.png.png');  
     background-size: cover; 
     background-position: center; 
     background-attachment: fixed; 
