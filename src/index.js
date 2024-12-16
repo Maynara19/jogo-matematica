@@ -21,7 +21,6 @@ root.render(
         <Route path="/continent2" element={<Continent2 />} />
         <Route path="/continent3" element={<Continent3 />} />
         <Route path="/continent4" element={<Continent4 />} />
-        
         <Route path='/sobre' element={<Sobre/>}/>
       </Routes>
     </BrowserRouter>

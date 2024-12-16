@@ -7,7 +7,7 @@ export function Menu() {
     <div className='menu-container'>
       <h1 id="oi">Matemáticos</h1>
       <div className='button-container'>
-        <Link to="/">
+        <Link to="/menu">
           <button className='menu-button'>
             Jogar
           </button>
