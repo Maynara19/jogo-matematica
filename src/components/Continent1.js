@@ -93,7 +93,7 @@ const Continent1 = () => {
 
           {/* Botão Voltar sempre abaixo */}
           <div className="button-container">
-            <button onClick={() => navigate('/')} className="back-button">
+            <button onClick={() => navigate('/menu')} className="back-button">
               Voltar
             </button>
           </div>

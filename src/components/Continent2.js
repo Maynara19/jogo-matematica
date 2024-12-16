@@ -93,7 +93,7 @@ const divisionQuestions = [
 
           {message && <p className="message">{message}</p>}
           <div className="button-container"> 
-          <button onClick={() => navigate('/')} className="back-button">
+          <button onClick={() => navigate('/menu')} className="back-button">
               Voltar
             </button>
           </div>

@@ -13,7 +13,7 @@ export default function Home() {
             <Link to="/continent3" className="continent" id="continent3">3. Álgebra</Link>
             <Link to="/continent4" className="continent" id="continent4">4. Subtração</Link>
         </div>
-        <Link to="/menu" id="back-to-menu" className="menu-button">Voltar para o Menu</Link>
+        <Link to="/" id="back-to-menu" className="menu-button">Voltar para o Menu</Link>
     </div>
    );
 }
